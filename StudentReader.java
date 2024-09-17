@@ -14,8 +14,8 @@ public class StudentReader {
         }
         return students;
     }
-
     public static void main(String[] args) {
+        
         StudentReader reader = new StudentReader();
         List<String> students = reader.readStudentsFromFile("students.txt");
 
@@ -26,4 +26,6 @@ public class StudentReader {
             }
         }
     }
+
+    
 }
