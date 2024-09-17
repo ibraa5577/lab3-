@@ -14,6 +14,10 @@ public class StudentReader {
         }
         return students;
     }
+    public int addtownambers(int a,int b){
+        return a*b;
+
+    }
     public static void main(String[] args) {
         
         StudentReader reader = new StudentReader();
@@ -26,6 +30,7 @@ public class StudentReader {
             }
         }
     }
+
 
     
 }
